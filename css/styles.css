@@ -831,6 +831,11 @@ button {
    border: 1px solid rgba(46, 47, 66, 0.40);
 }
 
+.input-form:focus {
+   border-color: #4d5ae5;
+}
+
+
 .form-wrap {
    margin-bottom: 8px;
 }
@@ -851,6 +856,7 @@ button {
    transform: translateY(-50%);
    transition: fill 250ms var(--cubic-bezier);
 }
+
 
 .input-form:focus+.icon-modal {
    fill: #4d5ae5;
