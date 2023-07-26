@@ -843,7 +843,7 @@ button {
    margin-bottom: 16px;
 }
 
-.modal-icon {
+.icon-modal {
    position: absolute;
    fill: #2e2f42;
    top: 50%;
@@ -852,7 +852,7 @@ button {
    transition: fill 250ms var(--cubic-bezier);
 }
 
-.input-form:focus+.modal-icon {
+.input-form:focus+.icon-modal {
    fill: #4d5ae5;
 }
 
