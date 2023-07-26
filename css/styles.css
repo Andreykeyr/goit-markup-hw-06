@@ -33,12 +33,18 @@ img {
    display: block;
 }
 
-hr {
-   border: none;
-   border-top: 1px solid #E7E9FC;
-   margin: 0;
-   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
-}
+.visually-hidden {
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow: hidden;
+   }
 
 .header {
    border-bottom: 1px solid #e7e9fc;
@@ -933,16 +939,3 @@ button {
       border: none;
       fill: #F4F4FD;
    }
-
-   .visually-hidden {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      margin: -1px;
-      border: 0;
-      padding: 0;
-      white-space: nowrap;
-      clip-path: inset(100%);
-      clip: rect(0 0 0 0);
-      overflow: hidden;
-      }
