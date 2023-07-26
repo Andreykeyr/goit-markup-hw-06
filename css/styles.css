@@ -831,10 +831,6 @@ button {
    border: 1px solid rgba(46, 47, 66, 0.40);
 }
 
-.input-form:hover {
-   border-color: #4D5AE5;
-}
-
 .form-wrap {
    margin-bottom: 8px;
 }
@@ -854,6 +850,10 @@ button {
    left: 16px;
    transform: translateY(-50%);
    transition: fill 250ms var(--cubic-bezier);
+}
+
+.input-form:focus+.modal-icon {
+   fill: #4d5ae5;
 }
 
 .form-comments {
